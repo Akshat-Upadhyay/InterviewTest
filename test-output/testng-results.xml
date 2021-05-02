@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Amazon Add To Cart Test Automation" duration-ms="180618" started-at="2021-05-02T21:47:14Z" finished-at="2021-05-02T21:50:15Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="180618" started-at="2021-05-02T21:47:14Z" finished-at="2021-05-02T21:50:15Z">
+      <class name="com.qa.amazon.tests.ShoppingCartCheckoutPageTest">
+        <test-method status="PASS" signature="verifyShoppingCartCheckoutPagePageTitleTest()[pri:1, instance:com.qa.amazon.tests.ShoppingCartCheckoutPageTest@5d740a0f]" name="verifyShoppingCartCheckoutPagePageTitleTest" duration-ms="497" started-at="2021-05-02T21:49:41Z" finished-at="2021-05-02T21:49:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyShoppingCartCheckoutPagePageTitleTest -->
+        <test-method status="PASS" signature="verifyCartItem()[pri:2, instance:com.qa.amazon.tests.ShoppingCartCheckoutPageTest@5d740a0f]" name="verifyCartItem" duration-ms="84" started-at="2021-05-02T21:50:04Z" finished-at="2021-05-02T21:50:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCartItem -->
+      </class> <!-- com.qa.amazon.tests.ShoppingCartCheckoutPageTest -->
+      <class name="com.qa.amazon.tests.ShoppingCartPageTest">
+        <test-method status="PASS" signature="verifyShoppingCartPageTitleTest()[pri:1, instance:com.qa.amazon.tests.ShoppingCartPageTest@2b546384]" name="verifyShoppingCartPageTitleTest" duration-ms="1082" started-at="2021-05-02T21:49:40Z" finished-at="2021-05-02T21:49:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyShoppingCartPageTitleTest -->
+        <test-method status="PASS" signature="verifyClickOnCart()[pri:2, instance:com.qa.amazon.tests.ShoppingCartPageTest@2b546384]" name="verifyClickOnCart" duration-ms="3697" started-at="2021-05-02T21:50:00Z" finished-at="2021-05-02T21:50:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClickOnCart -->
+      </class> <!-- com.qa.amazon.tests.ShoppingCartPageTest -->
+      <class name="com.qa.amazon.tests.HomePageTest">
+        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:1, instance:com.qa.amazon.tests.HomePageTest@75c072cb]" name="verifyHomePageTitleTest" duration-ms="107" started-at="2021-05-02T21:49:39Z" finished-at="2021-05-02T21:49:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method status="PASS" signature="verifySearchButtonTest()[pri:2, instance:com.qa.amazon.tests.HomePageTest@75c072cb]" name="verifySearchButtonTest" duration-ms="8066" started-at="2021-05-02T21:49:41Z" finished-at="2021-05-02T21:49:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchButtonTest -->
+      </class> <!-- com.qa.amazon.tests.HomePageTest -->
+      <class name="com.qa.amazon.tests.ApplePhonePageTest">
+        <test-method status="PASS" signature="init_Setup()[pri:0, instance:com.qa.amazon.tests.ApplePhonePageTest@25b485ba]" name="init_Setup" is-config="true" duration-ms="29803" started-at="2021-05-02T21:47:14Z" finished-at="2021-05-02T21:47:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init_Setup -->
+        <test-method status="PASS" signature="init_Setup()[pri:0, instance:com.qa.amazon.tests.HomePageTest@75c072cb]" name="init_Setup" is-config="true" duration-ms="10842" started-at="2021-05-02T21:47:44Z" finished-at="2021-05-02T21:47:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init_Setup -->
+        <test-method status="PASS" signature="init_Setup()[pri:0, instance:com.qa.amazon.tests.MobilePhonePageTest@1f1c7bf6]" name="init_Setup" is-config="true" duration-ms="18812" started-at="2021-05-02T21:47:55Z" finished-at="2021-05-02T21:48:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init_Setup -->
+        <test-method status="PASS" signature="init_Setup()[pri:0, instance:com.qa.amazon.tests.ShoppingCartCheckoutPageTest@5d740a0f]" name="init_Setup" is-config="true" duration-ms="38757" started-at="2021-05-02T21:48:14Z" finished-at="2021-05-02T21:48:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init_Setup -->
+        <test-method status="PASS" signature="init_Setup()[pri:0, instance:com.qa.amazon.tests.ShoppingCartPageTest@2b546384]" name="init_Setup" is-config="true" duration-ms="46721" started-at="2021-05-02T21:48:53Z" finished-at="2021-05-02T21:49:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init_Setup -->
+        <test-method status="PASS" signature="verifyApplePhonePageTitleTest()[pri:1, instance:com.qa.amazon.tests.ApplePhonePageTest@25b485ba]" name="verifyApplePhonePageTitleTest" duration-ms="75" started-at="2021-05-02T21:49:40Z" finished-at="2021-05-02T21:49:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyApplePhonePageTitleTest -->
+        <test-method status="PASS" signature="verifyAddToCart()[pri:2, instance:com.qa.amazon.tests.ApplePhonePageTest@25b485ba]" name="verifyAddToCart" duration-ms="3259" started-at="2021-05-02T21:49:57Z" finished-at="2021-05-02T21:50:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddToCart -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.amazon.tests.ApplePhonePageTest@25b485ba]" name="tearDown" is-config="true" duration-ms="835" started-at="2021-05-02T21:50:12Z" finished-at="2021-05-02T21:50:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.amazon.tests.HomePageTest@75c072cb]" name="tearDown" is-config="true" duration-ms="453" started-at="2021-05-02T21:50:13Z" finished-at="2021-05-02T21:50:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.amazon.tests.MobilePhonePageTest@1f1c7bf6]" name="tearDown" is-config="true" duration-ms="590" started-at="2021-05-02T21:50:13Z" finished-at="2021-05-02T21:50:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.amazon.tests.ShoppingCartCheckoutPageTest@5d740a0f]" name="tearDown" is-config="true" duration-ms="904" started-at="2021-05-02T21:50:14Z" finished-at="2021-05-02T21:50:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.amazon.tests.ShoppingCartPageTest@2b546384]" name="tearDown" is-config="true" duration-ms="525" started-at="2021-05-02T21:50:14Z" finished-at="2021-05-02T21:50:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.amazon.tests.ApplePhonePageTest -->
+      <class name="com.qa.amazon.tests.MobilePhonePageTest">
+        <test-method status="PASS" signature="verifyMobilePhonePageTitleTest()[pri:1, instance:com.qa.amazon.tests.MobilePhonePageTest@1f1c7bf6]" name="verifyMobilePhonePageTitleTest" duration-ms="65" started-at="2021-05-02T21:49:40Z" finished-at="2021-05-02T21:49:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMobilePhonePageTitleTest -->
+        <test-method status="PASS" signature="verifyAppleCheckBoxTest()[pri:2, instance:com.qa.amazon.tests.MobilePhonePageTest@1f1c7bf6]" name="verifyAppleCheckBoxTest" duration-ms="7786" started-at="2021-05-02T21:49:49Z" finished-at="2021-05-02T21:49:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAppleCheckBoxTest -->
+        <test-method status="PASS" signature="verifyApplePhoneClick()[pri:3, instance:com.qa.amazon.tests.MobilePhonePageTest@1f1c7bf6]" name="verifyApplePhoneClick" duration-ms="7428" started-at="2021-05-02T21:50:04Z" finished-at="2021-05-02T21:50:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyApplePhoneClick -->
+      </class> <!-- com.qa.amazon.tests.MobilePhonePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Amazon Add To Cart Test Automation -->
+</testng-results>

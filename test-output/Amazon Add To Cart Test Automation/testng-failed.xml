@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Amazon Add To Cart Test Automation]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.qa.amazon.tests.HomePageTest">
+        <methods>
+          <include name="verifyHomePageTitleTest"/>
+          <include name="init_Setup"/>
+          <include name="tearDown"/>
+          <include name="verifySearchButtonTest"/>
+        </methods>
+      </class> <!-- com.qa.amazon.tests.HomePageTest -->
+      <class name="com.qa.amazon.tests.ShoppingCartCheckoutPageTest">
+        <methods>
+          <include name="verifyCartItem"/>
+          <include name="verifyShoppingCartCheckoutPagePageTitleTest"/>
+          <include name="init_Setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.amazon.tests.ShoppingCartCheckoutPageTest -->
+      <class name="com.qa.amazon.tests.ApplePhonePageTest">
+        <methods>
+          <include name="init_Setup"/>
+          <include name="verifyAddToCart"/>
+          <include name="verifyApplePhonePageTitleTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.amazon.tests.ApplePhonePageTest -->
+      <class name="com.qa.amazon.tests.MobilePhonePageTest">
+        <methods>
+          <include name="verifyMobilePhonePageTitleTest"/>
+          <include name="init_Setup"/>
+          <include name="tearDown"/>
+          <include name="verifyAppleCheckBoxTest"/>
+          <include name="verifyApplePhoneClick"/>
+        </methods>
+      </class> <!-- com.qa.amazon.tests.MobilePhonePageTest -->
+      <class name="com.qa.amazon.tests.ShoppingCartPageTest">
+        <methods>
+          <include name="verifyShoppingCartPageTitleTest"/>
+          <include name="init_Setup"/>
+          <include name="tearDown"/>
+          <include name="verifyClickOnCart"/>
+        </methods>
+      </class> <!-- com.qa.amazon.tests.ShoppingCartPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Amazon Add To Cart Test Automation] -->
